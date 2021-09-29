@@ -30,11 +30,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* BASE TEXT FONTS */
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Baskerville, "Times New Roman", serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /* BASE TYPOGRAPHY */
