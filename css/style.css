@@ -17,6 +17,12 @@ TABLE OF CONTENTS
     # CONTAINER
     # MEDIA QUERIES
     # SEMANTIC GRID SYSTEM
+    # STRUCTURE
+        # SITE HEADER
+        # SITE NAV
+        # MAIN
+            #SECTIONS
+        # SITE FOOTER
 
 */
 /* BASE TEXT COLORS */
@@ -82,7 +88,7 @@ hr {
   font-weight: normal;
   line-height: 1;
   margin: 0;
-  color: #323e48;
+  color: #003057;
 }
 
 .subheadline {
@@ -93,11 +99,24 @@ hr {
   color: rgba(0, 0, 0, 0.5);
 }
 
+.section-heading {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  color: #c7973e;
+  font-size: 1em;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  border-bottom: 3px solid #c7973e;
+  display: table;
+  padding: 0 0 0.5em 0;
+  margin: 1em auto 3em auto;
+}
+
 /* HELPERS */
 /* BUTTONS */
 .button {
   display: inline-block;
-  background-color: #323e48;
+  background-color: #003057;
   color: #ffffff;
   text-decoration: none;
   padding: 1em;
@@ -228,4 +247,75 @@ body {
 .demo .row > * {
   background-color: rgba(0, 0, 0, 0.1);
   padding: 1%;
+}
+
+/* SITE STRUCTURE */
+/* SITE HEADER */
+.site-header {
+  background: #c7973e;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.site-header a {
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+}
+.site-header h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+/* SITE FOOTER */
+.site-footer {
+  background-color: #f7f5f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.site-footer a {
+  color: #003057;
+  text-decoration: none;
+}
+
+/* SITE NAV */
+.site-nav ul {
+  margin: 0;
+  padding: 0%;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.site-nav a {
+  display: inline-block;
+  padding: 1em;
+  line-height: 1;
+}
+
+section {
+  padding: 4em 0;
+}
+
+/* HERO SECTION */
+.hero {
+  background-color: #f7f5f2;
+  text-align: center;
+  padding: 6em 0;
+}
+.hero h1 {
+  margin-bottom: 0.25em;
+}
+.hero p {
+  margin: 1em auto;
 }

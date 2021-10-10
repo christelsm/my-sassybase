@@ -71,6 +71,18 @@ hr {
     color: $color-lightgrey;
 }
 
+.section-heading {
+    font-family: $font-family-sans;
+    color: $color-accent-gold;
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    border-bottom: 3px solid $color-accent-gold;
+    display: table;
+    padding: 0 0 0.5em 0;
+    margin: 1em auto 3em auto;
 
+}
 
 /* HELPERS */

@@ -4,14 +4,18 @@
 // VARIABLES
 $color-text-body: rgba(0,0,0,.8);
 $color-text-headings: rgba(0,0,0,1);
-$color-accent: #323e48;
+$color-accent: #003057;
 $color-accent-light: #5b6670;
+$color-accent-gold: #c7973e;
+$color-accent-cream: #f7f5f2;
+$color-accent-neon: #cfff4a;
+$color-accent-red: #ff3300;
 
 $color-lightgrey: rgba(0,0,0,.5);
 
 $font-family-headers: 'Poppins', sans-serif;
 $font-family-sans:  'Source Sans Pro', Helvetica, Arial, sans-serif;
-$font-family-serif: Baskerville, 'Times New Roman', serif;
+$font-family-serif: 'Times New Roman', serif;
 
 //BREAKPOINTS
 $breakpoint-small: 768px;
@@ -25,3 +29,5 @@ $breakpoint-large: 1250px;
 @import "partials/media";
 @import "partials/layout";
 @import "partials/grid";
+@import "partials/structure"
+
